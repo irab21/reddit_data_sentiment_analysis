@@ -4,9 +4,9 @@ import streamlit as st
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Initialize PRAW with your credentials
-reddit = praw.Reddit(client_id='_F3fW259iDGlYd5KfBa9QQ', 
-                     client_secret='oBWmCvJXctLCffEP-83tL1mfLUvXgg', 
-                     user_agent='my_stock_analysis_app by /u/NoTrash7060')
+reddit = praw.Reddit(client_id='', 
+                     client_secret='', 
+                     user_agent='')
 
 # Function to fetch Reddit discussions for a specific stock
 def fetch_reddit_data(stock_symbol, limit=100):
